@@ -1,0 +1,7 @@
+[project]
+name = "chimera-engine"
+version = "0.0.0"
+description = "Scaffold for Project Chimera"
+
+[tool.poetry]
+name = "chimera-engine"

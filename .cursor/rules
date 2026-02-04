@@ -1,0 +1,7 @@
+Project Context: Project Chimera — Autonomous Influencer Network.
+
+Prime Directive: NEVER generate implementation code without a ratified spec in `specs/`.
+
+Traceability: Before writing code, explain the plan and link to the spec file that authorizes the change.
+
+Human-in-the-Loop: If a Judge agent flags content, escalate to the `Human Reviewer` role.
