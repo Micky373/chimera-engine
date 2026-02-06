@@ -1,3 +1,4 @@
 pydantic
 PyYAML
 pytest
+pre-commit
