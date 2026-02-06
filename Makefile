@@ -5,6 +5,15 @@ PYTHON := python
 setup:
 	@echo "Setup: install dependencies if needed"
 
+install-hooks:
+	@if command -v pre-commit >/dev/null 2>&1; then \
+		pre-commit install; \
+		pre-commit install -t pre-push; \
+		echo "pre-commit hooks installed"; \
+	else \
+		echo "pre-commit not installed; run 'pip install pre-commit'"; \
+	fi
+
 test:
 	@if command -v pytest >/dev/null 2>&1; then \
 		pytest -q; \
