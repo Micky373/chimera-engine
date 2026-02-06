@@ -57,7 +57,6 @@ Updated scaffold and developer workflow files: `Makefile`, `.github/workflows/ma
 ## Author
 
 - GitHub: [@Micky](https://github.com/Micky373)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/michaeltamirie)
 
 ## 🤝 Contributing
