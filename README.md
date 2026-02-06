@@ -1,3 +1,21 @@
+# Project Chimera - Scaffold
+
+This repository contains starter scaffolding for Project Chimera (Autonomous Influencer Network).
+
+What was added:
+
+- `specs/` — spec templates and Mermaid diagrams
+- `skills/` — skill stubs with I/O contracts
+- `tests/` — failing test placeholders (TDD-first)
+- `chimera_core/agent_persona.py` — `AgentPersona` model + `assemble_context` helper
+- `SOUL.md` — persona template
+- `Dockerfile`, `Makefile`, `.github/workflows/main.yml`
+
+Next steps:
+
+- Implement skills and MCP adapters
+- Connect Tenx MCP Sense and add telemetry
+- Implement CI checks and spec validation
 # Project Name
 
 > One paragraph statement about the project.
