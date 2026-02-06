@@ -10,3 +10,9 @@ test:
 
 spec-check:
 	@echo "Spec-check: placeholder (validate specs/ files)"
+
+ci: setup test spec-check
+	@echo "CI pipeline completed"
+
+build-image:
+	docker build -t chimera-ci .
