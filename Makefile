@@ -6,7 +6,7 @@ setup:
 	@echo "Setup: install dependencies if needed"
 
 test:
-	$(PYTHON) -m unittest discover -v
+	$(PYTHON) -m unittest discover -s tests -v
 
 spec-check:
 	@echo "Spec-check: placeholder (validate specs/ files)"
