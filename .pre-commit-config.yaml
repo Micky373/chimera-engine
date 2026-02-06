@@ -5,3 +5,4 @@
       entry: bash scripts/pre-commit-run-tests.sh
       language: system
       pass_filenames: false
+      stages: [push]
